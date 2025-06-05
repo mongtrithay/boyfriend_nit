@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Showcase Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* First Section Styles */
+        .section-one {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section-one img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .section-one h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .section-one p {
+            color: #666;
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        /* Video Section Styles */
+        .video-section {
+            padding: 40px 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .video-section h2 {
+            text-align: center;
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .video-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .video-item {
+            flex: 1 1 300px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .video-item:hover {
+            transform: scale(1.05);
+        }
+        .video-item video {
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+        .video-item p {
+            padding: 15px;
+            margin: 0;
+            color: #333;
+            font-size: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- First Section -->
+        <section class="section-one">
+            <img src="https://via.placeholder.com/600x400" alt="Featured Image">
+            <h1>Welcome to my family boyfriends</h1>
+            <p>
+                Discover our curated collection of videos designed to inspire and entertain. 
+                Explore a variety of content that showcases creativity and innovation.
+            </p>
+        </section>
+
+        <!-- Second Section: Featured Videos -->
+        <section class="video-section">
+            <h2>First boyfriend</h2>
+            <div class="video-list">
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="/video/IMG_8119.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 1: A Journey Through Nature</p>
+                </div>
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="/video/IMG_8120.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 2: Urban Adventures</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third Section: Adventure Videos -->
+        <section class="video-section">
+            <h2>Second boyfriend</h2>
+            <div class="video-list">
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="/video/bunsue.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 6: Mountain Expeditions</p>
+                </div>
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 7: Ocean Voyages</p>
+                </div>
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 8: Desert Treks</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fourth Section: Educational Videos -->
+        <section class="video-section">
+            <h2>Third boyfriend</h2>
+            <div class="video-list">
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 9: Science Discoveries</p>
+                </div>
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 10: Historical Insights</p>
+                </div>
+                <div class="video-item">
+                    <video controls autoplay muted>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video 11: Technology Trends</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
